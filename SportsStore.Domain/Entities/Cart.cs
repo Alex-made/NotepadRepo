@@ -31,10 +31,10 @@ namespace SportsStore.Domain.Entities
 
         public void RemoveLine(Product product)
         {
-            lineCollection.RemoveAll(l => l.Product.ProductID == product.ProductID);
+            lineCollection.RemoveAll(l => l.product.ProductID == product.ProductID);
         }
 
-        public int ComputeTotalValue()
+        public decimal ComputeTotalValue()
         {
             return lineCollection.Sum(p => p.product.Price * p.Quantity);
         }
