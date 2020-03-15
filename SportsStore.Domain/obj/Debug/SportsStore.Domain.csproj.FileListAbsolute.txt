@@ -2,3 +2,9 @@ C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\Sports
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojAssemblyReference.cache
