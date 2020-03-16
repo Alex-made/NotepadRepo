@@ -8,3 +8,9 @@ C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.
 C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
 C:\Users\Made\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojAssemblyReference.cache
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete

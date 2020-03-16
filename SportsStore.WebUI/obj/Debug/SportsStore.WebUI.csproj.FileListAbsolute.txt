@@ -190,3 +190,11 @@ C:\Users\Made\source\repos\SportsStore\SportsStore.WebUI\bin\ru\System.Web.WebPa
 C:\Users\Made\source\repos\SportsStore\SportsStore.WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Made\source\repos\SportsStore\SportsStore.WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
 C:\Users\Made\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojAssemblyReference.cache
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml

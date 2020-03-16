@@ -17,9 +17,14 @@ namespace SportsStore.WebUI.Controllers
             _repository = repository;
         }
 
-        public ViewResult List()
+        private int pageSize = 1;
+
+        public ViewResult List(int page = 1)
         {
-            return View(_repository.Products);
+	        var result = _repository.Products
+		        .Skip(pageSize * (page - 1))
+		        .Take(pageSize);
+	        return View(_repository.Products);
         }
     }
 }
