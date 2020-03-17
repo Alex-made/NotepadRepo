@@ -25,7 +25,8 @@ namespace SportsStore.WebUI.Controllers
 	        var result = new ProductsListViewModel
 	        {
 		        Products = _repository.Products
-			        .Skip(pageSize * (page - 1))
+			        .OrderBy(p => p.Name)
+					.Skip(pageSize * (page - 1))
 			        .Take(pageSize),
 		        PagingInfo = new PagingInfo
 		        {
