@@ -241,3 +241,4 @@ C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\Sys
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\System.Xml.XPath.dll
 C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\ab.smirnov\source\repos\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojAssemblyReference.cache

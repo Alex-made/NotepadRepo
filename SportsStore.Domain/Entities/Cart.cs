@@ -12,31 +12,30 @@ namespace SportsStore.Domain.Entities
 
         public void AddItem(Product product, int quantity)
         {
-            //добавить продукт и количество в картлайн
-            CartLine Line = lineCollection.Where(p => p.product.ProductID == product.ProductID).FirstOrDefault();
-            if (Line == null)
+            CartLine line = lineCollection.Where(p => p.Product.ProductID == product.ProductID).FirstOrDefault();
+            if (line == null)
             {
                 CartLine NewLine = new CartLine();
-                NewLine.product = product;
+                NewLine.Product = product;
                 NewLine.Quantity = quantity;
 
-                lineCollection.Add(Line);
+                lineCollection.Add(NewLine);
             }
             else
             {
-                Line.Quantity = quantity;
+	            line.Quantity = quantity;
             }
 
         }
 
         public void RemoveLine(Product product)
         {
-            lineCollection.RemoveAll(l => l.product.ProductID == product.ProductID);
+            lineCollection.RemoveAll(l => l.Product.ProductID == product.ProductID);
         }
 
         public decimal ComputeTotalValue()
         {
-            return lineCollection.Sum(p => p.product.Price * p.Quantity);
+            return lineCollection.Sum(p => p.Product.Price * p.Quantity);
         }
 
         public void Clear()
@@ -46,7 +45,7 @@ namespace SportsStore.Domain.Entities
 
         public IEnumerable<CartLine> Lines
         {
-            get { return lineCollection; }
+            get => lineCollection; 
         }
     }
 }
