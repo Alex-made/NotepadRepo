@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
 using System.Web.Routing;
@@ -35,6 +36,14 @@ namespace SportsStore.WebUI.Infrastructure
 		{
 			// конфигурирование контейнера
 			ninjectKernel.Bind<IProductRepository>().To<EfProductRepository>();
+			EmailSettings emailSettings = new EmailSettings
+			{
+				WriteAsFile = bool.Parse(ConfigurationManager
+					.AppSettings["Email.WriteAsFile"] ?? "false")
+			};
+			ninjectKernel.Bind<IOrderProcessor>()
+				.To<EmailOrderProcessor>()
+				.WithConstructorArgument("settings", emailSettings);
 			//Mock<IProductRepository> mock = new Mock<IProductRepository>();
 			//mock.Setup(m => m.Products).Returns(new List<Product> {
 			//	new Product { Name = "Football", Price = 25 },
